@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 body {
+    font-family:        'Nunito', sans-serif;
     background-color:   #1e1e2e;    
     color:              #cdd6f4;
 }
@@ -13,6 +14,7 @@ body {
     align-items:        center;
     justify-items:      center;
     gap:                10px;
+    padding-bottom:     150px;
 }
 
 .bar-cont {
@@ -43,7 +45,12 @@ body {
     border-radius:          10px;
 }
 
-.bar a {
+.bar-cont > a:nth-child(4) {
+    display:                flex;
+    flex-wrap:              nowrap;
+}
+
+.bar-cont a {
     background-color:   #45475a;
     color:              #cdd6f4;
     text-decoration:        none;
@@ -57,7 +64,7 @@ body {
     width:              auto;           
     bottom:             10px;         
     left:               50%;             
-    transform:          translateX(-50%); 
+    transform:          translateX(-50%);
 }
 
 .bar-focused-button {
