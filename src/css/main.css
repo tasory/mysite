@@ -1,0 +1,109 @@
+/* main css */
+
+body {
+    background-color:   #1e1e2e;    
+    color:              #cdd6f4;
+}
+
+.main-container {
+    display:            flex;
+    flex-direction:     column;
+    align-items:        center;
+    justify-items:      center;
+    gap:                10px;
+}
+
+.bar-cont {
+    display:                flex;
+    gap:                    10px;
+    border-radius:          20px;
+    align-items:            center;
+    justify-content:        center;
+    background-color:   #313244;
+    color:              #cdd6f4;
+}
+
+.greetings, .widget {
+    background-color:   #313244;
+    color:              #cdd6f4;
+    border:             3px solid #313244;  
+    border-radius:          20px;
+    padding-left:           10px;
+    padding-right:          10px;
+    max-width: 650px;
+}
+
+.bar-cont {
+    padding:                10px;
+}
+
+.bar-cont img {
+    border-radius:          10px;
+}
+
+.bar a {
+    background-color:   #45475a;
+    color:              #cdd6f4;
+    text-decoration:        none;
+    padding:                10px;
+    border-radius:          10px;
+}
+
+.bar {
+    position:           fixed;
+    z-index:            9999;         
+    width:              auto;           
+    bottom:             10px;         
+    left:               50%;             
+    transform:          translateX(-50%); 
+}
+
+.bar-focused-button {
+    background-color: #6c7086 !important;
+}
+
+.musicplayer-container {
+    display:            flex;
+    flex-direction:     row;
+    align-items:        center;
+    justify-self:       center;
+    gap:                10px;
+    padding-bottom:     10px;
+    padding-top:        10px;
+}
+
+.musicplayer-container img {
+    border-radius:  10px;
+    width: 200px;
+    height: 200px;
+}
+
+fieldset.widget:nth-child(3) {
+    height: 160px;
+}
+
+.widget legend {
+    background-color:   #45475a;
+    border-radius:      10px;
+    padding:            4px;
+    margin-left:        10px;
+}
+
+.info {
+    display:            flex;
+    flex-direction:     row;
+    gap:                10px;
+}
+
+.link {
+    color: #89b4fa;
+    text-decoration: #89b4fa wavy underline;
+}
+
+.link-sn {
+    background-color:   #45475a;
+    font-size:          30px;
+    border-radius:      10px;
+    padding:            5px;
+
+}

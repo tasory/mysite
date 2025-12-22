@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tasory's site!!</title>
+    <link rel="icon" type="image/x-icon" href="https://jack-dawlia.neocities.org/image/sad-tearful.gif">
+    <link rel="stylesheet" href="src/css/main.css">
+
+</head>
+<body>
+
+    <div class="main-container">
+        <div class="bar">
+            <div class="bar-cont">
+                <img src="src/img/tasory.jpg" style="width: 48px; height: 48px;"/>
+                <a href="index.html" class="bar-focused-button">main</a>
+                <a href="buttons.html">buttons</a>
+                <a href="aboutme.html">about me</a>
+            </div>
+        </div>
+
+        <div class="greetings">
+            <h1>✦ Welcome to my site :3 ✦</h1>
+        </div>
+
+        <fieldset class="widget info">
+            <legend>short info about me</legend>
+            <img style="height: auto; width: auto; border-radius: 10px;" src="src/img/tasory.jpg">
+            <div class="text-container">
+                <p> hello, i'm tasory, tech entusiast and musician!</p>
+                <p> i use <b>Arch</b><i> (btw)</i> with <b>Hyprland</b></p>
+                <p> i love cozyness, linux and cofee :3</p>
+            </div>
+        </fieldset>
+
+        <fieldset class="widget">
+            <legend>my last listened track</legend>
+            <div class="musicplayer-container">
+                <img id="album-cover" src="" alt="loading">
+                <div class="text-container">
+                    <h1 class="track"  id="track-title">loading</h1>
+                    <p  class="artist" id="artist-name">loading</p>
+                    <p  class="album"  id="album-title">loading</p>
+                </div>
+            </div>        
+        </fieldset>
+        <script src="src/js/lastfm.js"></script>
+        
+        <fieldset class="widget bsky">
+            <legend>my last post from <a class="link" href="https://bsky.app/profile/tasory.is-a.dev">bluesky</a> :3</legend>
+            <p id="bskyText"></p>
+        </fieldset>
+        <script src="src/js/bsky.js"></script>
+
+    </div>
+</body>
+</html>
