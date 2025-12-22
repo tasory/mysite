@@ -95,6 +95,11 @@ fieldset.widget:nth-child(3) {
     gap:                10px;
 }
 
+.info img {
+    height:             133px;
+    width:              133px;
+}
+
 .link {
     color: #89b4fa;
     text-decoration: #89b4fa wavy underline;
