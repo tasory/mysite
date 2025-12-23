@@ -45,7 +45,7 @@ body {
     border-radius:          10px;
 }
 
-.bar-cont > a:nth-child(4) {
+.bar-cont a {
     display:                flex;
     flex-wrap:              nowrap;
 }
@@ -111,13 +111,13 @@ fieldset.widget:nth-child(3) {
 }
 
 .link {
-    color: #89b4fa;
-    text-decoration: #89b4fa wavy underline;
+    color:              #89b4fa;
+    text-decoration:    #89b4fa 1px dotted underline;
 }
 
 .link-sn {
     background-color:   #45475a;
-    font-size:          30px;
+    font-size:          20px;
     border-radius:      10px;
     padding:            5px;
 
