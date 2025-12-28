@@ -120,5 +120,37 @@ fieldset.widget:nth-child(3) {
     font-size:          20px;
     border-radius:      10px;
     padding:            5px;
+}
 
+.music img {
+    height:         250px;
+    width:          250px;
+    margin-top:     10px;
+    border-radius:  10px;
+}
+
+.music {
+    align-items:    center;
+    text-align:     center;
+    padding-bottom: 10px;
+}
+
+div.music > a > img {
+    height:     32px;
+    width:      32px;
+}
+
+.music-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.music img {
+    height: 230px;
+    width: 230px;
+    margin: 10px;
+    border-radius: 10px;
 }
