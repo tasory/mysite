@@ -2,7 +2,7 @@
 // VIBECODE SHIT WARNING!!!!!
 
 // vars
-const parts = ['4c67', '2513', '1b21', '3c8d', '0955', '896b', '938a', '34b0']; // dont steal my a p i key plsss
+const parts = ['4c67', '2513', '1b21', '3c8d', '0955', '896b', '938a', '34b0']; // don't steal my a p i key plsss, it's very easy to generate your own
 const a_p_i_klyuchik = parts.join('');
 const username = 'tasoryy';
 let currentTrackName = '';

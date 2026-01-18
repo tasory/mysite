@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         const postText = data.feed[0].post.record.text;
         document.getElementById('bskyText').textContent = postText;
     } catch (error) {
-        console.error('Ошибка:', error);
-        document.getElementById('bskyText').textContent = 'Не удалось загрузить последний пост';
+        console.error('err:', error);
+        document.getElementById('bskyText').textContent = "Не удалось загрузить последний пост c bsky/Can't load last post from bsky :< ";
     }
 });
