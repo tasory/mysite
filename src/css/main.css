@@ -27,7 +27,7 @@ body {
     color:              #cdd6f4;
 }
 
-.greetings, .widget {
+.widget {
     background-color:   #313244;
     color:              #cdd6f4;
     border:             3px solid #313244;  
@@ -153,4 +153,14 @@ div.music > a > img {
     width: 230px;
     margin: 10px;
     border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .title, .text-container p, .bsky p {
+        font-size: 13px !important;
+    }
+
+    #track-title, #album-title, #artist-name {
+        font-size: 15px !important;
+    }
 }
