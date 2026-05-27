@@ -1,0 +1,25 @@
+
+.hw-img {
+    height:         100%;
+    width:          100%;
+    border-radius:  10px;
+}
+
+.img-cont {
+    object-fit: contain;
+}
+
+.hw-comment {
+    font-size:  11px;
+    color:      #a6adc8;
+}
+
+.hw-thinkpad {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.widget {
+    text-align: center;
+}
